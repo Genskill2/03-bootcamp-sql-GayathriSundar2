@@ -18,11 +18,11 @@ create table books  (
 );
 
 create table subjects  (
-       id INTEGER PRIMARY KEY NOT NULL AUTOINCREMENT,
+       id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
        name text NOT NULL
 );
 
-create table book_subjects  (
+create table books_subjects  (
        book INTEGER NOT NULL,
        subject INTEGER NOT NULL,
        FOREIGN KEY (book) REFERENCES books (id),
