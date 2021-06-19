@@ -19,7 +19,7 @@ INSERT INTO subjects (name) VALUES ('History');
 
 INSERT INTO books (title,publisher) SELECT 'The C Programming Language',id FROM publisher WHERE name = 'PHI';
 INSERT INTO books (title,publisher) SELECT 'The Go Programming Language',id FROM publisher WHERE name = 'PHI';
-INSERT INTO books (title,publisher) SELECT 'The UNIX Programming Language',id FROM publisher WHERE name = 'PHI';
+INSERT INTO books (title,publisher) SELECT 'The UNIX Programming Environment',id FROM publisher WHERE name = 'PHI';
 INSERT INTO books (title,publisher) SELECT 'Cryptonomicon',id FROM publisher WHERE name = 'Harper';
 INSERT INTO books (title,publisher) SELECT 'Deep Work',id FROM publisher WHERE name = 'GCP';
 INSERT INTO books (title,publisher) SELECT 'Atomic Habits',id FROM publisher WHERE name = 'Avery';
